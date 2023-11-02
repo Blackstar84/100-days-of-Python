@@ -1,0 +1,1 @@
+print(len(input("Ingrese un texto")))
