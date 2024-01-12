@@ -9,19 +9,12 @@ def jump():
     turn_left()
     while wall_on_right():
        move()
-
     turn_right()
     move()
     turn_right()
-
     while front_is_clear():
         move()
     turn_left()       
-
-        
-
-    
-
 
 # Mi solución
 while not at_goal():
